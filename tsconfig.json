@@ -1,0 +1,24 @@
+{
+ "compilerOptions": {
+  "rootDir": "src",
+  "outDir": "./lib",
+  "target": "es5",
+  "module": "commonjs",
+  "pretty": true ,
+  "noImplicitAny": false,
+  "skipLibCheck": true,
+  "allowUnreachableCode": false,
+  "traceResolution": false,
+  "allowSyntheticDefaultImports": true,
+  "sourceMap": true,
+  "removeComments": true,
+  "declaration": true,
+  "esModuleInterop": true
+ },
+ "files": [
+   "src/index.ts"
+ ]
+, "exclude": [
+    "node_modules"
+  ]
+}
