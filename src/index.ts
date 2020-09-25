@@ -126,4 +126,4 @@ class DeviceRotation {
     };
 }
 
-export = new DeviceRotation();
+export default new DeviceRotation();

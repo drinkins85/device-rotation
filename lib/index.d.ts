@@ -29,4 +29,4 @@ declare class DeviceRotation {
     stop: () => void;
 }
 declare const _default: DeviceRotation;
-export = _default;
+export default _default;
