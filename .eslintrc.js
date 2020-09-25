@@ -33,6 +33,6 @@ module.exports = {
         'react/require-default-props': 0,
         '@typescript-eslint/indent': [2, 4],
         'comma-dangle': ['error', 'always-multiline'],
-
+        'no-param-reassign': 0,
     },
 };

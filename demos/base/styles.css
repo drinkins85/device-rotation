@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.main {
+    flex-grow: 10;
+}
+
+.console {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.target {
+    width: 20px;
+    height: 20px;
+    background-color: #9d00ff;
+    border-radius: 10px;
+    margin: auto;
+    position: absolute;
+    left: 200px;
+}
+
+.accessButton {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #2a662a;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
