@@ -1,8 +1,14 @@
 {
   "name": "device-rotation",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Get device rotation position using DeviceOrientationEvent",
+  "keywords": ["rotation", "orientation", "DeviceOrientation"],
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "./lib/index.js",
+    ".lib/index.d.ts"
+  ],
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build-ts": "tsc --project tsconfig.json",
@@ -25,5 +31,9 @@
     "typescript": "^4.0.2",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/drinkins85/device-rotation"
   }
 }
