@@ -1,5 +1,12 @@
 # device-rotation
 
+### [Demo](https://drinkins85.github.io/device-rotation/demos/base/)
+
+## Install
+```
+npm i device-rotation --save
+```
+
 ## Usage
 ```
 import deviceRotation from 'device-rotation';
